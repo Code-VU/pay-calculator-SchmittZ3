@@ -4,9 +4,8 @@ def calculatePay():
     # This first line is provided for you
     hrs = input("Enter Hours: ")
     rate = input("Enter Pay Rate: ")
-    Pay = Float(hrs) * Float(rate)
-    print(Pay)
-    
+    pay = float(hrs)*float(rate)
+    print("Pay:", pay)
     # end assignment
 
 ## if you want to test locally before you try to sync
